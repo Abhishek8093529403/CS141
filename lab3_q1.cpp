@@ -11,7 +11,10 @@ int a,b;
 double doublevar = 1.2;
      bool boolvar = true;
 char character = 'C';
-
+ cout << floatvar<< endl;
+ cout << doublevar<<endl;
+ cout << boolvar<<endl;
+ cout << character<<endl; 
 //displaying the sizes of data types.
 cout << "size of a = " << sizeof(a) << endl;
 cout << "size of doublevar = " << sizeof(doublevar) << endl;
