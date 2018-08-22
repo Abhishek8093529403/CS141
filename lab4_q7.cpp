@@ -1,6 +1,6 @@
 //Write a C++ program to calculate area of an equilateral triangle. 
 #include<iostream>
-#include<math.h>
+#include<cmath>
 using namespace std;
 int main(){
 int a;//declaration of variables
