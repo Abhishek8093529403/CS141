@@ -2,14 +2,18 @@
 #include <iostream>
 using namespace std;
 //declaring the function
-int hcf(int n1, int n2);
+int hcf(int a, int b);
 // initialization
-int hcf(int n1, int n2)
+int hcf(int a, int b)
 {
-    if (n2 != 0)
-       return hcf(n2, n1 % n2);
+    if (b != 0)
+    {
+       return hcf(b, a % b);
+    }
     else 
-       return n1;
+    {
+       return a;
+    }
 }
 //using main function
 int main()
