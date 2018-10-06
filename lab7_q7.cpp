@@ -1,3 +1,4 @@
+//checking the number to be pallindrome or not.
 #include <iostream>
 #include <math.h>
 using namespace std;
