@@ -7,7 +7,9 @@ int add(int n);
 int add(int n)
 {
     if(n != 0)
+    {
         return n + add(n - 1);
+    }
     return 0;
 }
 //using the main function
