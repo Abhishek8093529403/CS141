@@ -13,7 +13,9 @@ float power(float x,float y,float z)
     {
         //Put condition to end the recursion
         if(y>z)
+        {
         return 1;
+        }
         else
         {
             //return power by recursion
@@ -28,7 +30,9 @@ float power(float x,float y,float z)
     {
         //Put condition to end the recursion
         if(y>(-z))
+        {
         return 1;
+        }
         else
         {
             //return power by recursion
