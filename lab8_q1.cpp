@@ -1,5 +1,7 @@
+// to find the sum of the elements of the array.
 #include<iostream>
 using namespace std;
+//declaring the function
 int array( int ar[], int n ) 
 {
    int i;
@@ -13,10 +15,12 @@ int array( int ar[], int n )
 
 int main()
 {
+//ask the user to input the size of array	
    int n;
    cout<<"enter size"<<endl;
    cin>>n;
    int ar[n];
+//ask the user to input the values inside the array.
    cout<<"enter the values in the array"<<endl;
     for (int i=0;i<n;i++)
 	{
