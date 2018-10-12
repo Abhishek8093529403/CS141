@@ -87,7 +87,7 @@ int main()
     
     for(int i=0;i<size;i++)
     {
-    cout<<ar3[i]<<" "<<endl;
+    cout<<ar3[i]<<" ";
     }
     
     cout<<" maximum value of array is:"<<maximum(ar3,size)<<endl;
