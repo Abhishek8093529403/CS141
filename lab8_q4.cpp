@@ -73,6 +73,7 @@ int main()
 	int size=size1+size2;
 	int ar3[size];
 	cout<<"elements in array after merge of array1 and array2 :  "<<endl;
+//using conditions to merge the arrays.
 	for(int i=0;i<size1;i++)
     {
     ar3[i]=ar1[i];
