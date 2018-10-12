@@ -89,7 +89,7 @@ int main()
     {
     cout<<ar3[i]<<" ";
     }
-    
+    cout<<endl;
     cout<<" maximum value of array is:"<<maximum(ar3,size)<<endl;
 	cout<<" minimum value of array is:"<<minimum(ar3,size)<<endl;
 	return 0;
