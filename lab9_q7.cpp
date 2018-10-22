@@ -1,3 +1,4 @@
+//Write a function that returns a pointer to the maximum value of an array of double's.  If the array is empty, return NULL.
 #include <iostream>
 using namespace std;
 double* maximum(double* a, int size)
@@ -10,6 +11,7 @@ double* maximum(double* a, int size)
 	    {
 		    for(int j=i+1;j<size;j++)
 		    {
+			    //using condition to show maximum.
 			    if(*(a+i)<*(a+j))
 			    {
 				    x=*(a+i);
@@ -25,13 +27,14 @@ double* maximum(double* a, int size)
         return NULL;
     }
 }
+
 int main()
 {
     int size;
     cout<<"Enter size of the array"<<endl;
     cin>>size;
     
-    
+    //using conditionals
     if(size!=0)
     {
         double ar[size];
