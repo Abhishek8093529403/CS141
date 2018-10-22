@@ -1,5 +1,8 @@
+//Write a function contains(char*, char) which returns true if the 1st parameter cstring contains the 2nd parameter char,
+//or false otherwise.
 #include <iostream>
 using namespace std;
+// using function
 bool contains(char* p,char c)
 {
     char t='\0';
@@ -28,7 +31,7 @@ int main()
     char c;
     cout<<"Enter the input you want to find in the array"<<endl;
     cin>>c;
-    char* p=&ar[0];
+    char* p=&ar[0];// calling function
     cout<<contains(p,c);
     return 0;
 }
