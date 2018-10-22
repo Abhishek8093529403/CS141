@@ -1,10 +1,15 @@
+//Write a function revString(char*) which reverses the parameter cstring. 
+//The function returns nothing. 
+//You may use C++ string handling functions in <cstring> in the function if you wish.
 #include <iostream>
 #include<cstring>
 using namespace std;
+// using function pointer in parameter
 void revtString(char* p)
 {
     int end;
     int count=0;
+    //using conditions to reverse the string
     for(int i=0;(*(p+i))!='\0';i++)
     {
         count++;
@@ -15,6 +20,7 @@ void revtString(char* p)
         cout<<*(p+i);
     }
 }
+
 int main()
 {
     int size;
@@ -26,7 +32,7 @@ int main()
     {
         cin>>ar[i];
     }
-    
+    //calling the function and use of pointer.
     char* p=&ar[0];
     revtString(p);
     return 0;
