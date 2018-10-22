@@ -1,17 +1,21 @@
+//Write a function countEven(int*, int) which receives an integer array and its size, 
+//and returns the number of even numbers in the array. 
 #include <iostream>
 using namespace std;
+//using function
 int countEven(int* p,int size)
 {
     int count=0;
     for(int i=0;i<size;i++)
     {
-        if(*(p+i)%2==0)
+        if(*(p+i)%2==0)// checking conditions to get a even number
         {
             count++;
         }
     }
     return count;
 }
+
 int main()
 {
     int size;
@@ -23,6 +27,6 @@ int main()
     {
         cin>>ar[i];
     }
-    int* p=&ar[0];
+    int* p=&ar[0];// output of number of even numbers
     cout<<"No. of even numbers:"<<countEven(p,size);
 }
