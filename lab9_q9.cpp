@@ -24,10 +24,7 @@ int main()
     cin>>size;
     char ar[size];
     cout<<"Enter input to array"<<endl;
-    for(int i=0;i<size;i++)
-    {
-        cin>>ar[i];
-    }
+    cin>>ar;
     char c;
     cout<<"Enter the input you want to find in the array"<<endl;
     cin>>c;
