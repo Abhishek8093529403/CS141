@@ -28,12 +28,10 @@ int main()
     cin>>size;
     char ar[size];
     cout<<"Enter input to array"<<endl;
-    for(int i=0;i<size;i++)
-    {
-        cin>>ar[i];
-    }
+        cin>>ar;
     //calling the function and use of pointer.
     char* p=&ar[0];
+    cout<<"reverse"<<endl;
     revtString(p);
     return 0;
 }
