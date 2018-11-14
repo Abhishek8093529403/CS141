@@ -46,7 +46,7 @@ int main()
     bozo.Create ("Bozo", 408, 1027, 400);
 
     cout << "This animal's name is " << bozo.reptName() << endl;
-
+    cout << "The number of days since last weighed "<<bozo.daysSinceLastWeighed(256)<<endl;
     //bozo.Destroy ();
     return 0;
 }
