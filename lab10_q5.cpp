@@ -1,7 +1,6 @@
 #include <iostream>
-
 using namespace std;
-
+//defining a class 
 class ZooAnimal  
    {
     private:
@@ -15,6 +14,7 @@ class ZooAnimal
       int daysSinceLastWeighed (int today);
       void Create(char*,int,int,int);
    };
+//member function create
    void ZooAnimal::Create(char* x,int a,int b,int c)
    {
        name=x;
@@ -22,14 +22,17 @@ class ZooAnimal
        weightDate=b;
        weight=c;
    }
+//member function destroy
    void ZooAnimal::Destroy ()
    {	
     delete [] name;
    }
+//member function reptname()
    char* ZooAnimal::reptName ()
    {
     return name;
    }
+//member function daysSinceLastWeighed
     int ZooAnimal::daysSinceLastWeighed (int today)
    {
     int startday, thisday;
