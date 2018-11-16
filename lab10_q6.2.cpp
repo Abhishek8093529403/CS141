@@ -1,9 +1,8 @@
 #include <iostream>
-
 using namespace std;
 
 enum scale {ounces, kilograms};
-
+//class ZooAnimal
    class ZooAnimal  
    {
     private:
@@ -26,7 +25,7 @@ enum scale {ounces, kilograms};
       int daysSinceLastWeighed (int today);
    };
 
-//Member function
+//Member function create
 void ZooAnimal::Create (char* a, int b, int c, int d)
 {
     name=a;
@@ -34,6 +33,7 @@ void ZooAnimal::Create (char* a, int b, int c, int d)
     weightDate=c;
     weight=d;
 }
+//member function reptweight Date
 inline int ZooAnimal::reptWeightDate ()
 {
     return weightDate;
